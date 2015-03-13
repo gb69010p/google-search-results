@@ -11,16 +11,18 @@
 		
 		<!-- Logo, search bar, apps, and Google account  -->
 		<div class="topbar">
-			<img id="IMGlogo" src="#" alt="logo"/>
+			<img id="IMGlogo" src="logo.png" alt="logo"/>
 			
-			<form action="#" method="GET">
+			<!-- <div id="searchform"> -->
+			<form class="searchform" action="#" method="GET">
 				<input id="searchtext" name="searchbar" type="text"/>
-				<img id="IMGmic" src="#" alt="mic"/>
-				<button></button>
+				<img id="IMGmic" src="microphone.gif" alt="mic"/>
+				<button id="searchbutton"></button>
 			</form>
-			
+			<!-- </div> -->
+
 			<ul class="nav_right">
-				<li><a href="#"><img id="IMGapp" src="#" alt="apps"/></a></li>
+				<li><a href="#"><img id="IMGapps" src="apps.png" alt="apps"/></a></li>
 				<li><a href="#">name@domain.com</a></li>
 			</ul>
 		</div>
@@ -33,9 +35,11 @@
 				<a href="#"><li>News</li></a>
 				<a href="#"><li>Shopping</li></a>
 				<a href="#"><li>Images</li></a>
-				<a href="#"><li>More</li></a>
-				<a href="#"><li>Search tools</li></a>
 			</ul>
+
+			<ul class="moretools">
+				<a href="#"><li>More</li></a>
+				<li><a href="#"><span class="box">Search tools</span></a></li>
 
 			<div class="icons_right">
 			</div>
@@ -45,69 +49,108 @@
 
 		
 
-		<!-- Main container with search results -->
-		<div class="center_content">
+	<!-- Main container with search results -->
+	<div class="center_content">
 
-			<div class="results_speed">
-				<p>About 4,040,000 results (.023 seconds)</p>
-			</div>
-
-			<div class="searchresults">
-				<h3>With zero coding experience, artist building 180 webpages ...</h3>
-				<p><span class="sitelink">arstechnica.com/.../with-zero-coding-experience-artist-build... </span><span class="source">Ars Technica</span>
-				<span class="date">Jul 26, 2013</span>
-				- 117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she ...</p>
-			</div>
-
-
-			<!-- Related searches -->
-			<div class="related">
-				<div class="rel_left">
-					<p><a href="#">how to build a website</a></p>
-					<p><a href="#">how to build a webpage for free</a></p>
-					<p><a href="#">build a webpage google</a></p>
-					<p><a href="#">how to build a web page for free</a></p>
-				</div>
-				<div class="rel_right">
-					<p><a href="#">how to create a webpage</a></p>
-					<p><a href="#">how to build a webpage with html</a></p>
-					<p><a href="#">build your own webpage</a></p>
-					<p><a href="#">how to build a webpage from scratch</a></p>
-				</div>
-			</div>
-
-
-			<!-- Pages navigation -->
-			<div class="nav_pages">
-				<table>
-					<tr>
-						<td>G</td>
-						<td>O</td>
-						<td>O</td>
-						<td>O</td>
-						<td>O</td>
-						<td>O</td>
-						<td>O</td>
-						<td>O</td>
-						<td>O</td>
-						<td>gle</td>
-						<td>">"</td>
-					</tr>
-				</table>
-			</div>	
-
-
-			<div class="footer">
-				<ul class="footbar">
-					<li><a href="#">Help</a></li>
-					<li><a href="#">Send feedback</a></li>
-					<li><a href="#">Privacy</a></li>
-					<li><a href="#">Terms</a></li>
-				</ul>
-			</div>
-
-
+		<div class="results_speed">
+			<p>About 4,040,000 results (.023 seconds)</p>
 		</div>
+
+		<div class="searchresults">
+			<a href="#"><h3>With zero coding experience, artist building 180 webpages ...</h3></a>
+			<p><span class="top"><span class="sitelink">arstechnica.com/.../with-zero-coding-experience-artist-build... </span><span class="source"><a href="#">Ars Technica</a></span></span></p>
+			<p><span class="date">Jul 26, 2013</span>
+			- 117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she ...</p>
+		</div>
+		<div class="searchresults">
+			<a href="#"><h3>With zero coding experience, artist building 180 webpages ...</h3></a>
+			<p><span class="top"><span class="sitelink">arstechnica.com/.../with-zero-coding-experience-artist-build... </span><span class="source"><a href="#">Ars Technica</a></span></span></p>
+			<p><span class="date">Jul 26, 2013</span>
+			- 117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she ...</p>
+		</div>
+		<div class="searchresults">
+			<a href="#"><h3>With zero coding experience, artist building 180 webpages ...</h3></a>
+			<p><span class="top"><span class="sitelink">arstechnica.com/.../with-zero-coding-experience-artist-build... </span><span class="source"><a href="#">Ars Technica</a></span></span></p>
+			<p><span class="date">Jul 26, 2013</span>
+			- 117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she ...</p>
+		</div>
+		<div class="searchresults">
+			<a href="#"><h3>With zero coding experience, artist building 180 webpages ...</h3></a>
+			<p><span class="top"><span class="sitelink">arstechnica.com/.../with-zero-coding-experience-artist-build... </span><span class="source"><a href="#">Ars Technica</a></span></span></p>
+			<p><span class="date">Jul 26, 2013</span>
+			- 117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she ...</p>
+		</div>
+		<div class="searchresults">
+			<a href="#"><h3>With zero coding experience, artist building 180 webpages ...</h3></a>
+			<p><span class="top"><span class="sitelink">arstechnica.com/.../with-zero-coding-experience-artist-build... </span><span class="source"><a href="#">Ars Technica</a></span></span></p>
+			<p><span class="date">Jul 26, 2013</span>
+			- 117 days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage. The next day, she built another, and she ...</p>
+		</div>
+
+		
+
+
+
+		<!-- Related searches -->
+		<div class="related">
+			<h3>Searches related to build this webpage</h3>
+			<div class="rel_left">
+				<p><a href="#">how to build a website</a></p>
+				<p><a href="#">how to build a webpage for free</a></p>
+				<p><a href="#">build a webpage google</a></p>
+				<p><a href="#">how to build a web page for free</a></p>
+			</div>
+			<div class="rel_right">
+				<p><a href="#">how to create a webpage</a></p>
+				<p><a href="#">how to build a webpage with html</a></p>
+				<p><a href="#">build your own webpage</a></p>
+				<p><a href="#">how to build a webpage from scratch</a></p>
+			</div>
+			<div class="clearfixdiv"></div>
+		</div>
+
+
+		<!-- Pages navigation -->
+		<div class="nav_pages">
+		<img id="IMGpages" src="googpages.png" alt="pages"/>
+		</div>	
+
+	</div>
+
+	<div class="adbar">
+		<div class="adresult">
+			<a href="#"><h3>Free Google Business Page</h3></a>
+			<p><span class="top"><span class="sitelink">www.google.com/mybusiness</span></span></p>
+			<p>Be Found On Google, Maps & More. Get Your Free Business Page Today.</p>
+		</div>
+		<div class="adresult">
+			<a href="#"><h3>Free Google Business Page</h3></a>
+			<p><span class="top"><span class="sitelink">www.google.com/mybusiness</span></span></p>
+			<p>Be Found On Google, Maps & More. Get Your Free Business Page Today.</p>
+		</div>
+		<div class="adresult">
+			<a href="#"><h3>Free Google Business Page</h3></a>
+			<p><span class="top"><span class="sitelink">www.google.com/mybusiness</span></span></p>
+			<p>Be Found On Google, Maps & More. Get Your Free Business Page Today.</p>
+		</div>
+		<div class="adresult">
+			<a href="#"><h3>Free Google Business Page</h3></a>
+			<p><span class="top"><span class="sitelink">www.google.com/mybusiness</span></span></p>
+			<p>Be Found On Google, Maps & More. Get Your Free Business Page Today.</p>
+		</div>
+		
+	</div>
+
+
+
+	<div class="footer">
+			<ul class="footbar">
+				<a href="#"><li>Help</li></a>
+				<a href="#"><li>Send feedback</li></a>
+				<a href="#"><li>Privacy</li></a>
+				<a href="#"><li>Terms</li></a>
+			</ul>
+	</div>
 
 
 </body>
